@@ -1,0 +1,128 @@
+
+
+.hero-container{
+    position: relative;
+    /* background-image: url('/images/gentle-smiles-hero1.png'); */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    z-index: 0;
+    padding-top: 100px;
+    
+    
+}
+
+#overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+.hero-cta{
+    background-color: #5FBCD9;
+    opacity: 80%;
+    width: 100%;
+    max-width: 675px;
+    height: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 50px;
+    z-index: 2;
+
+    position: relative;
+    bottom: 0;
+    left: 100px;
+}
+
+.hero-cta h1 {
+    color: white;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.hero-cta h1.background-color-text{
+    background-color: white;
+    color: #5FBCD9;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+
+.cta-buttons {
+    margin-top: 100px;
+    display: flex;
+}
+
+.cta-buttons .why-were-awesome-btn button{
+    background-color: #5FBCD9;
+    border: 2px solid white;
+    width: 260px;
+    height: 60px;
+    margin-right: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.cta-buttons .request-free-exam-btn button{
+    background-color: white;
+    border: 2px solid white;
+    width: 260px;
+    height: 60px;
+    cursor: pointer;
+    color: #5FBCD9;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 850px) {
+    .hero-cta {
+        opacity: 95%;
+        width: 100%;
+        max-width: 675px;
+        margin: 0 auto;
+        height: 90%;
+        
+        padding: 50px;
+        z-index: 2;
+
+        position: relative;
+        bottom: 0;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .hero-container{
+        padding-top: 0px;
+    }
+    .hero-cta{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    
+
+    .cta-buttons{
+        margin-top: 50px;
+        display: block;
+    }
+    .cta-buttons .why-were-awesome-btn button{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    
+    .hero-cta h1{
+        font-size: 2.5rem;
+    }
+    
+}

@@ -1,0 +1,223 @@
+footer {
+    background-color: #5FBCD9;
+    
+}
+
+.footer-container{
+    padding-top: 60px;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer h1 {
+    margin-bottom: 60px;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+footer h1 span {
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+.quick-links-desktop{
+    width: 100%;
+    margin: 0 auto 60px auto;
+    display: block;
+    
+}
+
+.quick-links-mobile {
+    display: none;
+}
+
+.quick-links_ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.quick-links_ul li{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 30px;
+    letter-spacing: 0.1em;
+    
+}
+
+.quick-links_ul li a{
+    padding: 10px 0;
+}
+
+.quick-links_ul li a span {
+    padding-left:  15px;
+}
+
+.locations-container{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 95%;
+    margin: 0 auto 90px auto;
+}
+
+.locations-container .location{
+    display: flex;
+    
+
+}
+
+.locations-container .location .location-icon{
+    margin-right: 20px;
+}
+
+.locations-container .location .location-info{
+    color: white;
+    letter-spacing: 0.1em;
+    width: 100%;
+    max-width: 240px;
+}
+
+.locations-container .location .location-info h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.locations-container .location .location-info p{
+    font-weight: 300;
+    font-size: 18px;
+    
+}
+
+.locations-container .location .location-info .phone-number{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer_free-exam-btn{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.footer_free-exam-btn button{
+    background-color: white;
+    border: 2px solid #5FBCD9;
+    width: 245px;
+    height: 55px;
+    cursor: pointer;
+    color: #5FBCD9;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.footer_free-exam-btn button:hover{
+    background-color: #5FBCD9;
+    border-color: white ;
+    color: white;
+   
+}
+
+.bottom-footer_logo{
+    background-color: #3997B5;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: white;
+}
+
+.bottom-footer_logo span{
+    font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+
+    .footer-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    footer h1 {
+        margin-bottom: 40px;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+
+    .quick-links-desktop{
+        
+        display: none;
+        
+    }
+    
+    .quick-links-mobile {
+        display: block;
+        width: 100%;
+        margin: 0 auto 40px auto;
+    }
+
+    .quick-links-mobile .quick-links_ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quick-links-mobile .quick-links_ul li{
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 20px;
+        letter-spacing: 0.1em;
+        height: 60px;
+        margin-right: 0;
+        
+    }
+    
+    .quick-links-mobile .quick-links_ul li a{
+        display: flex;
+        height: 100%;
+    }
+    
+    .quick-links-mobile .quick-links_ul li a span {
+        display: none;
+    }
+
+    .locations-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0 auto 40px auto;
+    }
+
+    .locations-container .location{
+        display: block;
+        margin-bottom: 40px;
+        text-align: center;
+        
+    
+    }
+
+    .locations-container .location .location-icon{
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+    
+}
+
