@@ -1,0 +1,247 @@
+.know-us_container {
+    
+    width: 100vw;
+}
+
+.know-us_container{
+    display: flex;
+    position: relative;
+}
+
+.know-us_container .left-side{
+    background-color: #C1E7F3;
+    width: 45%;
+    height: 700px;
+}
+
+.know-us_container .left-side .image1{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 430px;
+    height: auto;
+}
+
+.know-us_container .left-side .image1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.know-us_container .left-side .image2{
+    margin-left: 100px;
+    width: 350px;
+    height: 390;
+
+    position: absolute;
+    top: 230px;
+    left: 270px;
+}
+
+.know-us_container .left-side .image2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.know-us_container .right-side{
+    background-color: #F4F4F4;
+    width: 55%;
+    padding-left: 200px;
+    padding-right: 100px;
+    height: 700px;
+}
+
+.know-us_container .right-side h1{
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.know-us_container .right-side h2{
+    margin-bottom: 50px;
+}
+
+.know-us_container .right-side p{
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+
+.know-us_container.desktop-hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .know-us_container{
+        display: flex;
+    }
+
+    .know-us_container .left-side{
+        width: 50%;
+        
+    }
+
+    .know-us_container .right-side{
+        padding-left: 100px;
+    }
+
+    .know-us_container .left-side .image1{
+        width: 330px;
+        
+    }
+    
+    
+    .know-us_container .left-side .image2{
+        margin-left: 100px;
+        width: 250px;
+        height: 290;
+    
+        position: absolute;
+        top: 230px;
+        left: 270px;
+
+    }
+    
+    
+}
+
+@media screen and (max-width: 1170px) {
+    .know-us_container{
+        display: flex;
+    }
+
+    .know-us_container .left-side{
+        width: 50%;
+        
+    }
+
+    .know-us_container .right-side{
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+
+    .know-us_container .right-side h2{
+        margin-bottom: 30px;
+    }
+
+    .know-us_container .left-side .image1{
+        width: 330px;
+    }
+    
+    
+    .know-us_container .left-side .image2{
+        margin-left: 100px;
+        width: 250px;
+        height: 290;
+    
+        position: absolute;
+        top: 230px;
+        left: 200px;
+
+    }   
+}
+
+@media screen and (max-width: 1000px) {
+    .know-us_container{
+        display: flex;
+        background-color: #F4F4F4;
+    }
+
+    .know-us_container .left-side{
+        width: 50%;
+    }
+
+    .know-us_container .right-side{
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+
+    .know-us_container .right-side h2{
+        margin-bottom: 30px;
+    }
+
+    .know-us_container .left-side .image1{
+        width: 330px;
+    }
+    
+    
+    .know-us_container .left-side .image2{
+        margin-left: 100px;
+        width: 250px;
+        height: 290;
+    
+        position: absolute;
+        top: 230px;
+        left: 160px;
+
+    }   
+}
+
+@media screen and (max-width: 950px) {
+    .know-us_container.desktop-show{
+        display: none;
+    }
+
+    .know-us_container.desktop-hide{
+        display: block;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+    }
+
+    .know-us_container .know-us_info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .know-us_container .know-us_image1{
+        padding-top: 60px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .know-us_container .know-us_image1 img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+
+    .know-us_container .know-us_info h1{
+        margin-bottom: 15px;
+    }
+    
+    .know-us_container .know-us_info h2{
+        margin-bottom: 30px;
+    }
+    
+    .know-us_container .know-us_info p{
+        margin-bottom: 50px;
+        width: 100%;
+        
+        
+    }
+    
+    .know-us-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 640px){
+    .know-us_container.desktop-hide{
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+}
+
+@media screen and (max-width: 480px){
+    .know-us_container.desktop-hide{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

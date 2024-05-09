@@ -2,7 +2,7 @@
 
 .hero-container{
     position: relative;
-    /* background-image: url('/images/gentle-smiles-hero1.png'); */
+    background-image: url('/images/gentle-smiles-hero1.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -58,29 +58,10 @@
     display: flex;
 }
 
-.cta-buttons .why-were-awesome-btn button{
-    background-color: #5FBCD9;
-    border: 2px solid white;
-    width: 260px;
-    height: 60px;
+.cta-buttons .why-were-awesome-btn{
     margin-right: 25px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.1em;
 }
 
-.cta-buttons .request-free-exam-btn button{
-    background-color: white;
-    border: 2px solid white;
-    width: 260px;
-    height: 60px;
-    cursor: pointer;
-    color: #5FBCD9;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-}
 
 @media screen and (max-width: 850px) {
     .hero-cta {
@@ -113,13 +94,16 @@
         margin-top: 50px;
         display: block;
     }
-    .cta-buttons .why-were-awesome-btn button{
+    .cta-buttons .why-were-awesome-btn{
         margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    
+    .hero-cta{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     
     .hero-cta h1{
         font-size: 2.5rem;

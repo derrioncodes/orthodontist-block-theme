@@ -2,10 +2,104 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;  
+}
+
+body{
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
     color: inherit;
 }
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    color: #23423B;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.text20{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.overline{
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+/* START OF BUTTON CLASSES */
+
+.btn {
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-bg__btn{
+    background-color: #ffffff;
+    color: #5FBCD9;
+    border: 2px solid #ffffff;
+
+    width: 260px;   
+}
+
+.white-bg__btn:hover{
+    background-color: #5FBCD9;
+    border-color: white ;
+    color: white;
+}
+
+
+.transparent-bg___white-outline__btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+
+    width: 260px;
+}
+
+.transparent-bg___white-outline__btn:hover{
+    background-color: #ffffff;
+    border-color: white ;
+    color: #5FBCD9;
+}
+
+.transparent-bg__brand-blue-outline__btn{
+    background-color: transparent;
+    color: #5FBCD9;
+    border: 2px solid #5FBCD9;
+
+    width: 260px;   
+}
+
+.transparent-bg__brand-blue-outline__btn:hover{
+    background-color: #5FBCD9;
+    border-color: #5FBCD9 ;
+    color: white;
+}
+
+/* END OF BUTTON CLASSES */
+
+
+

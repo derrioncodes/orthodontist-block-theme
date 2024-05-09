@@ -1,0 +1,120 @@
+.meet-the-doctor_section{
+    width: 100vw;
+}
+
+.meet-doctor-container{
+    display: flex;
+}
+
+.meet-doctor-container .left-side{
+    background-color: #F4F4F4;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 700px;
+    width: 50%;
+}
+
+.meet-doctor-container .left-side h1{
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.meet-doctor-container .left-side h2{
+    margin-bottom: 50px;
+}
+
+.meet-doctor-container .left-side p{
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+
+.meet-doctor-container .right-side {
+    width: 50%;
+    height: 700px;
+}
+
+.meet-doctor-container .right-side img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 1250px) {
+    .meet-doctor-container .left-side{
+        padding-right: 60px;
+    }
+
+    .meet-doctor-container .left-side h2{
+        margin-bottom: 30px;
+    }
+
+    .meet-doctor-container .left-side h1{
+        margin-top: 60px;
+    }
+}
+
+
+
+@media (max-width: 950px){
+    .meet-doctor-container{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #F4F4F4;
+        padding-bottom: 100px;
+    }
+
+    .meet-doctor-container .left-side{
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        padding-right: 100px;
+    }
+
+    .meet-doctor-container .left-side h1{
+        margin-top: 40px;
+    }
+
+    .meet-doctor-container .left-side p{
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: 100%;
+        
+    }
+
+    .meet-the-doctor-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .meet-doctor-container .right-side{
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .meet-doctor-container .right-side img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 100% 20%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .meet-doctor-container .left-side{
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+}
+
+@media screen and (max-width: 480px){
+    .meet-doctor-container .left-side{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

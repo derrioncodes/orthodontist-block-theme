@@ -95,8 +95,8 @@ footer h1 span {
 }
 
 .locations-container .location .location-info p{
-    font-weight: 300;
     font-size: 18px;
+    color: white;
     
 }
 
@@ -106,27 +106,11 @@ footer h1 span {
 }
 
 .footer_free-exam-btn{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 90px;
 }
 
-.footer_free-exam-btn button{
-    background-color: white;
-    border: 2px solid #5FBCD9;
-    width: 245px;
-    height: 55px;
-    cursor: pointer;
-    color: #5FBCD9;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-}
-
-.footer_free-exam-btn button:hover{
-    background-color: #5FBCD9;
-    border-color: white ;
-    color: white;
-   
-}
 
 .bottom-footer_logo{
     background-color: #3997B5;

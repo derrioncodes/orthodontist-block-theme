@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
-    <title>Document</title>
+    <title></title>
 </head>
 <body>
     
 <header>
         <nav class="desktop-nav">
             <div class="brand-name">
-                <a href="#">Gentle &nbsp;<span>| ORTHODONTICS</span></a>
+                <a href="<?php echo site_url() ?>">Gentle &nbsp;<span>| ORTHODONTICS</span></a>
             </div>
+
             <ul class="nav-links">
                 <li>
-                    <a href="#">Who We Are</a>
+                    <a href="<?php echo site_url('/who-we-are') ?>">Who We Are</a>
                 </li>
                 <li>
                     <a href="#">What We Do</a>
@@ -28,17 +29,20 @@
                 </li>
             </ul>
 
-            <button type="button" class="nav-button">
-                <a href="#">
-                    Free Exam
-                </a>
-            </button>
+            <a class="btn transparent-bg__brand-blue-outline__btn nav-button" href="#">
+                Free Exam
+            </a>
 
-            <button type="button" class="open-mobile-menu">
+            
+            <button class="open-mobile-menu" type="button">
+                <i class="fa fa-bars"></i>
+            </button>
+            
+            <!-- <button type="button" class="open-mobile-menu">
                 <a href="#">
                     <i class="fa fa-bars"></i>
                 </a>
-            </button>
+            </button> -->
         </nav>
 
         <section class="mobile-nav_container">
@@ -50,7 +54,9 @@
                         <a href="#">Gentle &nbsp;<span>| ORTHODONTICS</span></a>
                     </div>
                     
-                    <button class="close-mobile-menu-btn"><i class="fa fa-close"></i></button>
+                    <button class="close-mobile-menu-btn">
+                        <i class="fa fa-close"></i>
+                    </button>
                 </div>
             </div>
             <ul class="mobile-nav_menu">
@@ -60,11 +66,11 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
             <div class="free-exam_btn">
-                <button type="button" class="free-exam-nav-button">
-                    <a href="#">
-                        Free Exam
-                    </a>
-                </button>
+                <a class="btn transparent-bg__brand-blue-outline__btn free-exam-nav-button" href="#">
+                    Free Exam
+                </a>
             </div>
+            
         </section>
+
     </header>
