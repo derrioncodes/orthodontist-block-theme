@@ -31,24 +31,37 @@ while(have_posts()) {
                         <?php the_content(); ?>
                     </div>
                     
-                    <!-- <div class="page-widget">
+                    <?php 
+                    $testArray = get_pages(array(
+                        'child_of' => get_the_ID()
+                    ));
+
+                    if($theParentPage or $testArray ) { ?>
+                    <div class="page-widget">
                         <div class="widget-header">
-                            <h3>In this Section</h3>
+                            <h3>
+                                <a href="<?php get_permalink($theParentPage) ?>"><?php echo get_the_title($theParentPage) ?></a>
+                            </h3>
                         </div>
                         <div class="widget-links">
                             <ul>
-                                <li>
-                                    <a href="#">What sets us apart</a>
-                                </li>
-                                <li>
-                                    <a href="#">Meet Dr. Johnson</a>
-                                </li>
-                                <li>
-                                    <a href="#">Meet the team</a>
-                                </li>
+                                <?php 
+                                if($theParentPage){
+                                    $findChildrenOf = $theParentPage;
+                                } else {
+                                    $findChildrenOf = get_the_ID();
+                                }
+                                 wp_list_pages(array(
+                                    'title_li' => NULL,
+                                    'child_of' => $findChildrenOf,
+                                    'sort_column' => 'menu_order'
+                                 ));
+
+                                ?>
                             </ul>
                         </div>
-                    </div> -->
+                    </div>
+                   <?php } ?>
                    
                     
 

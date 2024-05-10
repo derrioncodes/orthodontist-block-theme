@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
     <title></title>
 </head>
-<body>
+<body <?php body_class(); ?>>
     
 <header>
         <nav class="desktop-nav">
@@ -14,8 +14,9 @@
                 <a href="<?php echo site_url() ?>">Gentle &nbsp;<span>| ORTHODONTICS</span></a>
             </div>
 
+
             <ul class="nav-links">
-                <li>
+                <li <?php if (is_page('who-we-are') or wp_get_post_parent_id(0) == 26) echo 'class = "current-menu-item" ' ?>>
                     <a href="<?php echo site_url('/who-we-are') ?>">Who We Are</a>
                 </li>
                 <li>

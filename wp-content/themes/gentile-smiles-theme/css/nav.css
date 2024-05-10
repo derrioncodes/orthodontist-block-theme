@@ -59,9 +59,17 @@
 
 }
 
+.desktop-nav .nav-links li a:hover{
+    color: #5FBCD9;
+}
+
 .desktop-nav .nav-button{
     width: 245px;
     height: 55px; 
+}
+
+.current-menu-item{
+    color: #5FBCD9;
 }
 
 
