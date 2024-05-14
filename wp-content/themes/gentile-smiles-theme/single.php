@@ -26,11 +26,6 @@ while(have_posts()) {
                     <div class="page-text">
                         <?php the_content(); ?>
                     </div>
-                    
-                    
-                   
-                    
-
                 </div>
             </div>
             
