@@ -15,6 +15,7 @@ function gentile_smiles_files(){
     wp_enqueue_style('reviews_styles', get_theme_file_uri('/css/reviews.css'));
     wp_enqueue_style('single_page_styles', get_theme_file_uri('/css/single-page.css'));
     wp_enqueue_style('all_blogs_styles', get_theme_file_uri('/css/blogs.css'));
+    wp_enqueue_style('all_team_styles', get_theme_file_uri('/css/team.css'));
     wp_enqueue_style('footer_styles', get_theme_file_uri('/css/footer.css'));
 }
 
