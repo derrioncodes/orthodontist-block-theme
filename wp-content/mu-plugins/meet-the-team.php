@@ -2,7 +2,8 @@
 
 function gentile_smiles_meet_the_team_posts(){
     register_post_type('team', array(
-        'rewrite' => array('slug' => 'who-we-are/team'),
+        'supports' => array('title', 'editor'),
+        'rewrite' => array('slug' => 'meet-the-team'),
         'has_archive' => true,
         'public' => true,
         'show_in_rest' => true,

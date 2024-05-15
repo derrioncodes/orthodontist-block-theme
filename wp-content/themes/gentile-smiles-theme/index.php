@@ -29,7 +29,14 @@ get_header(); ?>
                         <p class="author"> <?php the_author_posts_link(); ?> • <?php the_time('d M Y'); ?></p>
                         <h3 class="title"><a href="<?php the_permalink(); ?>"><?php the_title();?></h3>
                         <div class="blog_excerpt">
-                            <?php the_excerpt(); ?>
+                            <p>
+                            <?php if(has_excerpt()) {
+                                echo get_the_excerpt();
+                            } else {
+                                echo wp_trim_words(get_the_content(), 18);
+                            } ?>
+                            </p>
+                            
                         </div>
                     </div>
 

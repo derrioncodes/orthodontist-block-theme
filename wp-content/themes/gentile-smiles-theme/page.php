@@ -45,6 +45,9 @@ while(have_posts()) {
                         </div>
                         <div class="widget-links">
                             <ul>
+                                <li <?php if (get_post_type() == 'team') echo 'class = "current-menu-item"'  ?>>
+                                    <a href="<?php echo site_url('/meet-the-team') ?>">Meet the Team</a>
+                                </li>
                                 <?php 
                                 if($theParentPage){
                                     $findChildrenOf = $theParentPage;

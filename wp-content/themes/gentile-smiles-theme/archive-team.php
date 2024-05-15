@@ -29,8 +29,8 @@ get_header(); ?>
                         <img src="<?php echo get_theme_file_uri('/images/Dr Johnson.png')?>" alt="">
                     </div>
                     <div class="team-member_info">
-                        <h3><?php  the_title();?></h3>
-                        <p><?php  the_content();?></p>
+                        <h3><?php the_field('team_member_name'); ?></h3>
+                        <p><?php  the_field('team_member_occupation');?></p>
                     </div>
                 </div>
             <?php }

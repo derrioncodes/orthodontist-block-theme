@@ -16,7 +16,7 @@
 
 
             <ul class="nav-links">
-                <li <?php if (is_page('who-we-are') or wp_get_post_parent_id(0) == 26) echo 'class = "current-menu-item" ' ?>>
+                <li <?php if (is_page('who-we-are') or wp_get_post_parent_id(0) == 26 or get_post_type() == 'team')  echo 'class = "current-menu-item" ' ?>>
                     <a href="<?php echo site_url('/who-we-are') ?>">Who We Are</a>
                 </li>
                 <li>
