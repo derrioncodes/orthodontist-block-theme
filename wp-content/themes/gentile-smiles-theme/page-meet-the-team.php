@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 get_header(); ?>
 
 <main>
@@ -67,4 +67,4 @@ get_header(); ?>
 </main>
 
 <?php get_footer();
-?> -->
+?>

@@ -29,5 +29,7 @@ add_action('after_setup_theme', 'gentile_smiles_features');
 
 
 
+
+
 ?>
 
