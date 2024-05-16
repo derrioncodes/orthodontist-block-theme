@@ -23,6 +23,9 @@ add_action('wp_enqueue_scripts', 'gentile_smiles_files');
 
 function gentile_smiles_features() {
     add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
+    add_image_size('teamPortrait', 236, 350);
+    add_image_size('pageBanner', 1500, 250, true);
 }
 
 add_action('after_setup_theme', 'gentile_smiles_features');

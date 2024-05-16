@@ -4,11 +4,10 @@ get_header(); ?>
 <main>
     <section class="meet-the-team_section">
         <div class="single-page-container team-members">
-            <div class="single-page-banner" style="background-image: url(<?php echo get_theme_file_uri('/images/single-page-banner.png')?>;">
+            <div class="single-page-banner" style="background-image: url(<?php $pageBannerImage = get_field('page_banner_background_image'); echo $pageBannerImage['sizes']['pageBanner'] ?>;">
                 <div id="overlay"></div>
                 <div class="banner">
                     <h1>Meet the Team</h1>
-                    
                 </div>
             </div>
         </div>
@@ -45,7 +44,7 @@ get_header(); ?>
                 $teamMembers -> the_post(); ?>
                 <div class="team-member">
                     <div class="team-member_image">
-                        <img src="<?php echo get_theme_file_uri('/images/Dr Johnson.png')?>" alt="">
+                        <?php the_post_thumbnail('teamPortrait'); ?>
                     </div>
                     <div class="team-member_info">
                         <h3><?php the_field('team_member_name'); ?></h3>

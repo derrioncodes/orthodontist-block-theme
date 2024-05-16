@@ -2,8 +2,7 @@
 
 function gentile_smiles_meet_the_team_posts(){
     register_post_type('team', array(
-        'supports' => array('title', 'editor'),
-        'has_archive' => true,
+        'supports' => array('title', 'editor', 'thumbnail'),
         'public' => true,
         'show_in_rest' => true,
         'labels' => array(
