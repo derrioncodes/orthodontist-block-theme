@@ -8,12 +8,11 @@ while(have_posts()) {
     <main>
         <section class="single-page-section">
             <div class="single-page-container">
-                <div class="single-page-banner" style="background-image: url(<?php echo get_theme_file_uri('/images/single-page-banner.png')?>;">
-                    <div id="overlay"></div>
-                    <div class="banner">
-                        <h1><?php the_title(); ?></h1>
-                    </div>
-                </div>
+
+            <?php 
+                pageBanner();
+            ?>
+                
 
                 <div class="breadcrumb_container single-blog-post">
                     <a class="parent-page" href="<?php echo site_url('/blog')?>">Back to Blogs</a>

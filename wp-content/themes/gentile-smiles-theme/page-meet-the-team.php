@@ -4,12 +4,8 @@ get_header(); ?>
 <main>
     <section class="meet-the-team_section">
         <div class="single-page-container team-members">
-            <div class="single-page-banner" style="background-image: url(<?php $pageBannerImage = get_field('page_banner_background_image'); echo $pageBannerImage['sizes']['pageBanner'] ?>;">
-                <div id="overlay"></div>
-                <div class="banner">
-                    <h1>Meet the Team</h1>
-                </div>
-            </div>
+            
+            <?php pageBanner(); ?>
         </div>
 
        

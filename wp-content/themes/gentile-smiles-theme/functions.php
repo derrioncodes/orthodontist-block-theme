@@ -1,7 +1,32 @@
 <?php
 
+function pageBanner($args = NULL){
+    if(!isset($args['title'])) {
+      $args['title'] = get_the_title();
+    }
+
+
+
+    if (!isset($args['banner'])) {
+        if(get_field('page_banner_background_image') AND !is_archive() AND !is_home()){
+            $args['banner'] = get_field('page_banner_background_image')['sizes']['pageBanner'];
+        } else {
+            $args['banner'] = get_theme_file_uri('/images/single-page-banner.png');
+        }
+
+    }
+
+    ?>
+    <div class="single-page-banner" style="background-image: url(<?php echo $args['banner']; ?>);">
+        <div id="overlay"></div>
+        <div class="banner">
+            <h1><?php echo $args['title'] ?></h1>
+        </div>
+    </div>
+<?php }
+
 function gentile_smiles_files(){
-    wp_enqueue_script('main-js', get_theme_file_uri('/js/app.js'), NULL, '1.0', true );
+    wp_enqueue_script('main-js', get_theme_file_uri('/src/index.js'), NULL, '1.0', true );
 
     wp_enqueue_style('font-awesome', '//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap' );
     wp_enqueue_style('google-fonts', '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');

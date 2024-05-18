@@ -4,17 +4,23 @@ get_header(); ?>
 <main>
     <section class="all-blogs_section">
         <div class="single-page-container all-blogs-banner">
-            <div class="single-page-banner" style="background-image: url(<?php echo get_theme_file_uri('/images/single-page-banner.png')?>;">
-                <div id="overlay"></div>
-                <div class="banner">
-                    <h1><?php if(is_category()) {
-                        echo 'Category - ';single_cat_title();
-                    } 
-                    if(is_author()){
-                        echo 'Posts by '; the_author();
-                    } ?></h1>
-                </div>
-            </div>
+
+        <?php 
+        // $text;
+        // if(is_category()) {
+        //     $text =>  'Category - ';single_cat_title();
+        // }
+
+        // if(is_author()){
+        //     $text =>  'Posts by '; the_author();
+        // }
+
+        pageBanner(array(
+            'title' => get_the_archive_title()
+            
+        ))
+        ?>
+            
         </div>
 
         <div class="all-blogs_container">

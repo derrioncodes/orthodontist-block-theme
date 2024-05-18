@@ -4,12 +4,12 @@ get_header(); ?>
 <main>
     <section class="all-blogs_section">
         <div class="single-page-container all-blogs-banner">
-            <div class="single-page-banner" style="background-image: url(<?php echo get_theme_file_uri('/images/single-page-banner.png')?>;">
-                <div id="overlay"></div>
-                <div class="banner">
-                    <h1>Our Blog</h1>
-                </div>
-            </div>
+            <?php 
+            pageBanner(array(
+                'title' => 'Our Blog'
+            ))
+            ?>
+            
         </div>
 
         <div class="all-blogs_container">

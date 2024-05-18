@@ -57,22 +57,21 @@
         <div class="know-us_container desktop-show">
             <div class="left-side">
                 <div class="image1">
-                    <img src="<?php echo get_theme_file_uri('/images/Rectangle 18.png')?>" alt="">
+                    <img src="<?php echo get_theme_file_uri('/images/Rectangle-18.png')?>" alt="">
                 </div>
                 <div class="image2">
-                    <img src="<?php echo get_theme_file_uri('/images/Rectangle 17.png')?>" alt="">
+                    <img src="<?php echo get_theme_file_uri('/images/Rectangle-17.png')?>" alt="">
                 </div>
 
             </div>
             <div class="right-side">
                 <h1 class="overline">GET TO KNOW US</h1>
                 <h2>Why We're Awesome</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
+                <p>At Gentle Smiles Orthodontics, we are dedicated to helping each person we meet improve their smile. We offer a full range of orthodontic treatments, including clear aligners and braces, and use the latest technologies to provide high-quality care and beautiful results. Our team of skilled and caring professionals, led by experienced orthodontists, is passionate about creating beautiful, healthy smiles. We are committed to providing exceptional orthodontic care in a friendly, welcoming environment.
+                </p>
                 <div class="know-us-btn">
-                    <a class="btn transparent-bg__brand-blue-outline__btn" href="#">
-                        Learn More
+                    <a class="btn transparent-bg__brand-blue-outline__btn" href="<?php echo site_url('/who-we-are/meet-the-team') ?>">
+                        Meet the Team
                     </a>
                 </div>
                 
@@ -81,16 +80,16 @@
 
         <div class="know-us_container desktop-hide">
             <div class="know-us_image1">
-                <img src="/images/Rectangle 18.png" alt="">
+                <img src="<?php echo get_theme_file_uri('/images/Rectangle-18.png')?>" alt="">
             </div>
             <div class="know-us_info">
                 <h1 class="overline">GET TO KNOW US</h1>
                 <h2>Why We're Awesome</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>At Gentle Smiles Orthodontics, we are dedicated to helping each person we meet improve their smile. We offer a full range of orthodontic treatments, including clear aligners and braces, and use the latest technologies to provide high-quality care and beautiful results. Our team of skilled and caring professionals, led by experienced orthodontists, is passionate about creating beautiful, healthy smiles. We are committed to providing exceptional orthodontic care in a friendly, welcoming environment.</p>
                 
                 <div class="know-us-btn">
-                    <a class="btn transparent-bg__brand-blue-outline__btn" href="#">
-                        Learn More
+                    <a class="btn transparent-bg__brand-blue-outline__btn" href="<?php echo site_url('/who-we-are/meet-the-team') ?>">
+                    Meet the Team
                     </a>
                 </div>
                 
@@ -104,10 +103,10 @@
             <div class="left-side">
                 <h1 class="overline">Our Orthodontist</h1>
                 <h2>Meet Dr. Johnson</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Dr. Simon Johnson is dedicated to providing the highest level of orthodontic care to every patient who visits our practice. At Gentle Smiles Orthodontics, we offer a variety of services to meet the unique needs of each patient, using the latest technologies to achieve outstanding results. Dr. Johnson is on a mission to deliver first-class and affordable orthodontic treatment to our community, prioritizing patient comfort and happiness. His passion for orthodontics drives him to ensure that every patient receives exceptional care. Dr. Johnson looks forward to continuing our tradition of excellence and making every patient feel cared for and valued.</p>
 
                 <div class="meet-the-doctor-button">
-                    <a class="btn transparent-bg__brand-blue-outline__btn" href="#">
+                    <a class="btn transparent-bg__brand-blue-outline__btn" href="<?php echo site_url('/who-we-are/meet-dr-johnson') ?>">
                         Learn More
                     </a>
                 </div>
@@ -124,7 +123,7 @@
             <div class="headlines">
                 <h1 class="overline">HOW WE HELP</h1>
                 <h2>What We Do</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <p>Here at Gentile Smiles Orthodontics, we are committed to helping our guests improve their oral health and smiles. When you visit our orthodontist and team, we will treat you like a VIP and make sure that you feel comfortable in our office. You can count on us to go the extra mile for you and help you have a positive experience.</p>
             </div>
 
             <div class="how-we-help_services">
@@ -134,7 +133,9 @@
                     </div>
                     <div class="info">
                         <h3>Braces</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>The most common type of braces are metal braces. They are made of stainless steel and they straighten teeth using brackets that are bonded to the outside surface of the teeth with a wire that connects them together. Braces can have colorful elastic ties which are selected at each appointment. Braces can also be Self-ligating which do no require the use of elastic ties, instead it has a specialized clip to help the archwire guide teeth into place.</p>
+                    </div>
+                    <div class="learn-more_link">
                         <a class="btn transparent-bg__brand-blue-outline__btn" href="#">
                             Learn More
                         </a>
@@ -146,7 +147,10 @@
                     </div>
                     <div class="info">
                         <h3>Clear Aligners</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Clear Aligners are clear, removable and comfortable trays that move your teeth little by little like braces. Clear aligners are removable and highly aesthetic which are a great option for adults and teens. Oral hygiene is less of a hassle since they are removed for eating, drinking, brushing and flossing. The aligners are custom made to each person and the outcome can be visualized from the beginning of treatment.</p>
+                        
+                    </div>
+                    <div class="learn-more_link">
                         <a class="btn transparent-bg__brand-blue-outline__btn" href="#">
                             Learn More
                         </a>
@@ -158,7 +162,9 @@
                     </div>
                     <div class="info">
                         <h3>Advanced Technology</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Gentile Smiles Orthodontics uses the latest technologies and treatment techniques when providing your care. Our state-of-the-art equipment makes it possible for our orthodontist and team to tailor your treatments to your exact needs and give you a more comfortable experience. These technologies enhance the patient experience by making treatments more comfortable, efficient, and precise, ultimately leading to better orthodontic outcomes and overall patient satisfaction.</p>
+                    </div>
+                    <div class="learn-more_link">
                         <a class="btn transparent-bg__brand-blue-outline__btn" href="#">
                             Learn More
                         </a>
