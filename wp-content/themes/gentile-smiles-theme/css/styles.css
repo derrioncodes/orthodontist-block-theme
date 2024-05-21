@@ -41,6 +41,13 @@ ul{
     list-style: none;
 }
 
+li {
+    color: #000000;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+
+}
+
 
 
 /* START OF BUTTON CLASSES */

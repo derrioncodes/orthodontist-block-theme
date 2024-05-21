@@ -19,8 +19,8 @@
                 <li <?php if (is_page('who-we-are') or wp_get_post_parent_id(0) == 26 )  echo 'class = "current-menu-item" ' ?>>
                     <a href="<?php echo site_url('/who-we-are') ?>">Who We Are</a>
                 </li>
-                <li>
-                    <a href="#">What We Do</a>
+                <li <?php if (is_page('what-we-do') or wp_get_post_parent_id(0) == 92 )  echo 'class = "current-menu-item" ' ?>>
+                    <a href="<?php echo site_url('/what-we-do') ?>">What We Do</a>
                 </li>
                 <li>
                     <a href="#">New Patients</a>
