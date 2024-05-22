@@ -3,7 +3,25 @@
 }
 
 .all-blogs-banner {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
+}
+
+.all-blogs-banner.archive{
+    padding-bottom: 10px;
+}
+
+.breadcrumb_container.archive{
+    max-width: 1400px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 60px;
+}
+
+.breadcrumb_container.our-blogs{
+    max-width: 1400px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 60px;
 }
 
 .all-blogs_container{

@@ -12,6 +12,11 @@ get_header(); ?>
             
         </div>
 
+        <div class="breadcrumb_container our-blogs">
+            <a class="parent-page" href="<?php echo site_url('/new-patients') ?>">Back to New Patients</a>
+            <div class="child-page">Our Blogs</div>
+        </div>
+
         <div class="all-blogs_container">
 
             <?php while(have_posts()){

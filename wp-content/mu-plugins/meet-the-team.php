@@ -17,5 +17,7 @@ function gentile_smiles_meet_the_team_posts(){
     ));
 }
 
+
 add_action('init', 'gentile_smiles_meet_the_team_posts');
+
 ?>

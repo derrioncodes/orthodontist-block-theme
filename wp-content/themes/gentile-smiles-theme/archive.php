@@ -3,7 +3,7 @@ get_header(); ?>
 
 <main>
     <section class="all-blogs_section">
-        <div class="single-page-container all-blogs-banner">
+        <div class="single-page-container all-blogs-banner archive">
 
         <?php 
         // $text;
@@ -21,6 +21,11 @@ get_header(); ?>
         ))
         ?>
             
+        </div>
+
+        <div class="breadcrumb_container archive">
+            <a class="parent-page" href="<?php echo site_url('/new-patiens/blog')?>">Back to Blogs</a>
+            <div class="child-page"><?php the_archive_title(); ?></div>
         </div>
 
         <div class="all-blogs_container">
